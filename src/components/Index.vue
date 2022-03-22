@@ -11,7 +11,7 @@
       Buscar
     </button>
     <br />
-    <span v-if="latitude != null">Laditude: {{ latitude }}</span>
+    <span v-if="latitude != null">Latitude: {{ latitude }}</span>
     <span v-if="longitude != null">Longitude: {{ longitude }}</span>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
       latitude: null,
       longitude: null,
       cep: "",
-      apiKey: API_KEY_DO_GOOGLE,
+      apiKey: "AIzaSyBLQWRPQ_MlohawM00zz0gSH9IhSvQER4c",
     };
   },
   methods: {
