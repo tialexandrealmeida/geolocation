@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# Crie uma API KEY do googleapis e atualize na variável em geolocation/src/components/Index.vue
+https://developers.google.com/maps/
+
 # serve with hot reload at localhost:8080
 npm run dev
 
